@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Sora:wght@400;500;600;700&display=swap');
+
+:root {
+  --brand-navy: #143f6b;
+  --brand-teal: #1b7f8d;
+  --brand-sky: #8fd3dd;
+  --brand-beige: #f8f3e7;
+  --brand-white: #ffffff;
+  --text-strong: #17324f;
+  --text-soft: #4c6176;
+  --shadow-soft: 0 12px 30px rgba(20, 63, 107, 0.12);
+  --shadow-hover: 0 18px 36px rgba(20, 63, 107, 0.18);
+  --radius-lg: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+  color: var(--text-strong);
+  background:
+    radial-gradient(circle at 10% 0%, rgba(143, 211, 221, 0.18), transparent 34%),
+    radial-gradient(circle at 90% 100%, rgba(27, 127, 141, 0.16), transparent 32%),
+    linear-gradient(180deg, #f8fbfd 0%, var(--brand-beige) 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fraunces', serif;
+  letter-spacing: 0.2px;
+  color: var(--brand-navy);
+}
+
+p,
+li,
+a,
+span,
+button,
+input,
+textarea,
+select {
+  font-family: 'Sora', sans-serif;
+}
+
+section {
+  position: relative;
+}
+
+.hero-section,
+.services-section,
+.pricing-section,
+.contact-section,
+.careers-section {
+  animation: sectionFadeUp 0.55s ease both;
+}
+
+.card,
+.service-card,
+.value-card,
+.policy-box,
+.terms-box,
+.careers-card,
+.snap-card {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(20, 63, 107, 0.08);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover,
+.service-card:hover,
+.value-card:hover,
+.policy-box:hover,
+.terms-box:hover,
+.careers-card:hover,
+.snap-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.btn,
+.cta-button,
+.btn-luxury,
+.hire-now-btn,
+.btn-get-hired,
+.careers-btn {
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.btn:hover,
+.cta-button:hover,
+.btn-luxury:hover,
+.hire-now-btn:hover,
+.btn-get-hired:hover,
+.careers-btn:hover {
+  transform: translateY(-2px);
+  filter: saturate(1.05);
+}
+
+footer.footer-custom {
+  border-top: 1px solid rgba(20, 63, 107, 0.1);
+  backdrop-filter: blur(3px);
+}
+
+@media (max-width: 768px) {
+  body {
+    background:
+      radial-gradient(circle at 0% 0%, rgba(143, 211, 221, 0.2), transparent 38%),
+      linear-gradient(180deg, #f8fbfd 0%, var(--brand-beige) 100%);
+  }
+
+  .card,
+  .service-card,
+  .value-card,
+  .policy-box,
+  .terms-box,
+  .careers-card,
+  .snap-card {
+    border-radius: 14px;
+  }
+}
+
+@keyframes sectionFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
