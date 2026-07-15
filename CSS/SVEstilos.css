@@ -25,13 +25,7 @@
 
 .hire-now-btn {
     background-color:#567C8D;
-        background: linear-gradient(
-        to right,
-        #567C8D 0%,      /* Oro puro a la izquierda */
-        #567C8D 45%,     /* Gradiente comienza en 45% */
-        white 55%,     /* Transición a dorado oscuro en 55% */
-        #567C8D 100%     /* Dorado oscuro a la derecha */
-    );
+
     color: #FFFFFF;
     padding: 6px 12px !important;
     border-radius: 12px;
@@ -183,6 +177,13 @@
         padding: 8px 24px !important;
         font-size: 1rem !important;
         margin-left: 1.5rem !important;
+    }
+
+    .quality-badge {
+      top: 1.5rem;
+      right: max(0.5rem, calc((100% - 500px) / 2 + 0.15rem));
+      transform: none;
+      max-width: 190px;
     }
 }
 
@@ -1409,13 +1410,7 @@ a.card-link p {
     right: 30px;
     z-index: 99;
       background-color:#567C8D;
-        background: linear-gradient(
-        to right,
-        #567C8D 0%,      /* Oro puro a la izquierda */
-        #567C8D 45%,     /* Gradiente comienza en 45% */
-        white 55%,     /* Transición a dorado oscuro en 55% */
-        #567C8D 100%     /* Dorado oscuro a la derecha */
-    );
+
     color: #FFFFFF;
     border-radius: 50px;
     padding: 15px;
@@ -1434,13 +1429,6 @@ a.card-link p {
     right: 30px;
     z-index: 99;
       background-color:#567C8D;
-        background: linear-gradient(
-        to right,
-        #567C8D 0%,      /* Oro puro a la izquierda */
-        #567C8D 45%,     /* Gradiente comienza en 45% */
-        white 55%,     /* Transición a dorado oscuro en 55% */
-        #567C8D 100%     /* Dorado oscuro a la derecha */
-    );
     color: #FFFFFF;
     border-radius: 50px;
     padding: 15px;
