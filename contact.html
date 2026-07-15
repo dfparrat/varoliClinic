@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Varoli Clinic">
+    <meta name="keywords" content="html, css, xml, javascript, asistentes virtuales, virtual assistants">
+    <meta name="description" content="IntegraClinic - Serviços profissionais de assistentes virtuais">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
+      <title>Contact | Varoli Clinic</title> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    <meta name="google-site-verification" content="GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="CSS/professional-polish.css" rel="stylesheet">
+    <link href="CSS/CONTACTEstilos.css" rel="stylesheet">
+</head>
+<body> 
+    <header>   
+      <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid px-3">
+          <!-- ===== MOBILE CONTAINER (hidden on desktop) ===== -->
+          <div class="navbar-mobile-container d-flex d-lg-none w-100 align-items-center">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+              <img src="IMG/int_log_1.png" alt="SnapVAS Logo" class="logo-img">
+            </a>
+            
+            <!-- Spacer to center Hire button -->
+            <div class="mobile-spacer flex-grow-1"></div>
+            
+            <!-- Agende Agora Button -->
+            <a href="" class="btn hire-now-btn mx-2">Agende</a>
+            
+            <!-- Spacer to balance space -->
+            <div class="mobile-spacer flex-grow-1"></div>
+            
+            <!-- Menu Toggle -->
+            <button class="navbar-toggler" type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <!-- ===== DESKTOP CONTAINER (hidden on mobile) ===== -->
+          <div class="d-none d-lg-flex w-100 align-items-center">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+              <img src="IMG/int_BG_White.png" alt="SnapVAS Logo" class="logo-img">
+            </a>
+
+            <!-- Desktop Menu Items -->
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Sobre Nós</a></li>
+               <!-- <li class="nav-item"><a class="nav-link" href="careers.html">Carreiras</a></li> -->
+                <li class="nav-item"><a class="nav-link" href="">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="valoracion_form.html">Contate-nos</a></li>
+              </ul>
+            </div>
+
+            <!-- Desktop Hire Button -->
+            <a href="valoracion_form.html" class="btn hire-now-btn ms-3 d-lg-inline-block">Agende Já</a>
+          </div>
+
+          <!-- ===== COLLAPSIBLE MENU (mobile only) ===== -->
+          <div class="collapse navbar-collapse d-lg-none" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="">Serviços</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Sobre Nós</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Carreiras</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Preços</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Sección de Contacto -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <div class="contact-header">
+            <h1>contate-nos</h1>
+            <p>Quer ajuda dos melhores profissionais em São Paulo?<br>Escreva para nos e entraremos em contato em breve.</p>
+        </div>
+        
+        <div class="contact-content">
+            <div class="form-section">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome e sobrenome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu email pessoal" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="job">Servico que voce precisa</label>
+                        <select id="job" name="job" required>
+                            <option value="" disabled selected>Selecione um servico</option>
+                            <option value="Administrative Assistance">Ortodoncia</option>
+                            <option value="Customer Support">Limpeza e Prevencao</option>
+                            <option value="Digital Marketing">Avaliacao Geral</option>
+                            <option value="Assessoria Jurídica">Cirurgia Oral e Maxilofacial</option>
+                            <option value="Logistics">Endodoncia</option>
+                            <option value="Suporte em Treinamento">Estética Dental</option>
+                            <option value="Recrutamento e Seleção">Reabilitação Oral</option>
+                            <option value="Devops & Secops">Outros serviços</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" placeholder="Escreva sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+            
+            <div class="info-section">
+                <h2 style="color: #fff;">Entre em contato com os melhores</h2>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <div class="contact-text">
+                            <p><a href="mailto:service@snapvas.com">service@integra.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div class="contact-text">
+                            <p>Calle Fumio Miyazi, 141<br>Meridian Prime Offices Sala 903<br>Boqueirão - Praia Grande/SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+
+    <!-- Footer (igual que en index.html) -->
+<footer class="footer-custom py-5">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+        <div class="d-flex flex-column">
+          <div class="d-flex align-items-center mb-3">
+            <a href="index.html">
+              <img src="IMG/log_BL.png" alt="Integra Clinic Logo" style="max-height: 30px;">
+            </a>
+            <div class="ms-3 d-flex gap-2">
+              <a href="https://www.instagram.com/odontologia.varoli?igsh=MWs1Z2ZoZHV0M2FjdQ%3D%3D" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          
+          <div class="contact-info">
+            <p class="mb-2">Clínica Integra · Serviços Odontológicos</p>
+            <p class="mb-2">contacto@integraclinic.com</p>
+            <p class="mb-2">Calle Fumio Miyazi, 141 Meridian Prime Offices Sala 903 Boqueirão - Praia Grande/SP</p>
+            <p>Colombia · +55 13996664343</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Serviços -->
+      <div class="col-6 col-sm-3 col-md-2">
+        <h6><a class="nav-link" href="">Serviços</a></h6>
+        <ul>
+          <li><a class="nav-link" href="">Nossos Tratamentos</a></li>
+          <li><a class="nav-link" href="">Especialidades</a></li>
+          <li><a class="nav-link" href="">Planos e Avaliação</a></li>
+        </ul>
+      </div>
+
+      <!-- Sobre Nós -->
+      <div class="col-6 col-sm-3 col-md-2">
+        <h6><a class="nav-link" href="">Sobre Nós</a></h6>
+        <ul class="list-unstyled">
+          <li><a href="">Termos e Condições</a></li>
+          <li><a href="">Política de Privacidade</a></li>
+        </ul>
+        <a href="" target="_blank" class="btn-get-hired mt-2">Agendar Consulta</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- jQuery (if needed) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Your custom JS file -->
+<script src="JS/SVBackEnd.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1118,7 +1118,43 @@ a.card-link p {
   }
 }
 
+/* ===== WHATSAPP/CALL BUTTONS ===== */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+      background-color:#567C8D;
 
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.call-btn {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 99;
+      background-color:#567C8D;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.call-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
 
 
 

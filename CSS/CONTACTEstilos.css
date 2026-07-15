@@ -25,13 +25,6 @@
 
 .hire-now-btn {
     background-color:#567C8D;
-        background: linear-gradient(
-        to right,
-        #567C8D 0%,      /* Oro puro a la izquierda */
-        #567C8D 45%,     /* Gradiente comienza en 45% */
-        white 55%,     /* Transición a dorado oscuro en 55% */
-        #567C8D 100%     /* Dorado oscuro a la derecha */
-    );
     color: #FFFFFF;
     padding: 6px 12px !important;
     border-radius: 12px;
@@ -295,13 +288,7 @@
         }
         
         button[type="submit"] {
-            background: linear-gradient(
-            to right,
-            #2F4156 0%,      /* Oro puro a la izquierda */
-            #2F4156 45%,     /* Gradiente comienza en 45% */
-            white 55%,     /* Transición a dorado oscuro en 55% */
-            #2F4156 100%     /* Dorado oscuro a la derecha */
-            );
+            background:#2F4156;
             color: white;
             padding: 16px 24px;
             border: none;
@@ -419,13 +406,6 @@
 
 .btn-get-hired {
     background-color:#567C8D;
-        background: linear-gradient(
-        to right,
-        #567C8D 0%,      /* Oro puro a la izquierda */
-        #567C8D 45%,     /* Gradiente comienza en 45% */
-        white 55%,     /* Transición a dorado oscuro en 55% */
-        #567C8D 100%     /* Dorado oscuro a la derecha */
-    );
     color: #FFFFFF;
     padding: 6px 16px;
     border-radius: 12px;
